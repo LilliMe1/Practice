@@ -23,4 +23,8 @@ import { FiveComponent } from './thirdx/five/five.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(){
+    console.log('**');
+  }
+}
