@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  toggleDiv = true;
+
+  toggle():void{
+    this.toggleDiv = !this.toggleDiv
+  }
 }

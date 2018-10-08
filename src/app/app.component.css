@@ -1,0 +1,14 @@
+.flx{
+    display: flex;
+    background-color:#cbd2f9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flx > div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;justify-content: center;
+}
